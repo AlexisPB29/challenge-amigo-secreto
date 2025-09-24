@@ -38,7 +38,7 @@ function sortear(){
   }
   const idx = Math.floor(Math.random() * participantes.length);
   const ganador = participantes[idx];
-  result.textContent = `🎉 Amigo secreto: ${ganador}`;
+  result.textContent = `Amigo secreto: ${ganador}`;
 }
 addBtn.addEventListener("click", agregarNombre);
 input.addEventListener("keydown", (e) => {
