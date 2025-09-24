@@ -1,6 +1,13 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 // Estado: lista de participantes
 const participantes = [];
+
+const input   = document.getElementById("nameInput");
+const addBtn  = document.getElementById("addBtn");
+const drawBtn = document.getElementById("drawBtn");
+const list    = document.getElementById("namesList");
+const result  = document.getElementById("result");
+
 const limpiar = (s) => s.replace(/\s+/g, " ").trim();
 function renderLista(){
   list.innerHTML = "";
